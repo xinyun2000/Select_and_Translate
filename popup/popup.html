@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="popup.css">
+		<script src="../lib/jquery.min.js"></script>
+		<script src="popup.js"></script>
+	</head>
+	<body>
+		<div id="part1">
+			<h1 id="title1">pronunciation type</h1>
+		</div id="part2">	
+			<p>Alphabet</p>
+			<div class="toggle">
+				<input type="checkbox" checked id="t">
+				<label for="t"></label>
+			</div>
+			<p>平仮名</p>
+		</div>
+		<div>
+			<div id="part3">
+				<h1 id="title2">show culture background?</h1>
+			</div>
+			<div id="part4">
+				<div class="toggle1">
+					<input type="checkbox" checked id="t1">
+					<label for="t1"></label>
+				</div>
+			</div>
+		</div>
+		<div id="part5">
+			<h1 id="title3">Choose the language you want to translate to</h1>
+			<form action="">
+				<select name="language">
+					<option value="English">English</option>
+					<option value="Chinese">Chinese</option>
+					<option value="Japanese">Japanese</option>
+				</select>
+				<input type="submit" value="Submit"/>
+			</form>
+		</div>
+	</body>
+</html>
